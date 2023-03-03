@@ -1,0 +1,151 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: university
+  examples: |
+    - timings of rowan university
+    - rowan university timings
+    - timings
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Fees
+  examples: |
+    - what is tution fee?
+
+- intent: Registration_for_class
+  examples: |
+    - How do I register for classes at Rowan University?
+
+- intent: Registration_Process
+  examples: |
+    - What is the registration process at Rowan University?
+    - let me know the course registration process?
+    - what is the course registration steps?
+
+- intent: Banner_Self_Service_for_registration
+  examples: |
+    - How do I access Banner Self-Service for registration?
+    - What are the steps to access Banner Self-Service for registration?
+    - Where can I find the login page for Banner Self-Service registration?
+    - Can I reset my Banner Self-Service login credentials if I have forgotten them?
+    - Who should I contact for assistance if I am having trouble accessing Banner Self-Service for registration?
+
+- intent: Deadline_for_course_or_class_registration
+  examples: |
+    - What is the deadline for registering for classes at Rowan University?
+    - What is the registration deadline for classes?
+    - When do I need to register for classes by?
+    - Is there a specific date by which I need to complete my class registration?
+    - When does the registration period end for classes?
+    - What is the last day to register for classes for this semester?
+
+- intent: Add_or_Drop_a_course
+  examples: |
+   - What is the process for adding or dropping a course at Rowan University?
+   - Can I add or drop a course online at Rowan University?
+   - Are there specific forms or procedures that need to be followed to add or drop a course at Rowan University?
+   - Is there a deadline for adding or dropping a course at Rowan University?
+   - Who should I contact for assistance if I am having trouble adding or dropping a course at Rowan University?
+
+
+- intent: waitlist_course_registration
+  examples: |
+   - What is the process for registering for a waitlisted course at Rowan University?
+   - How do I know if I am eligible to register for a waitlisted course at Rowan University?
+   - Is there a specific deadline for registering for a waitlisted course at Rowan University?
+   - What steps do I need to take to secure a spot in a waitlisted course at Rowan University?
+   - Who should I contact for assistance if I am having trouble registering for a waitlisted course at Rowan University?
+
+- intent: Major_change
+  examples: |
+   - What is the process for changing my major at Rowan University?
+   - Are there any specific requirements or qualifications I need to meet to change my major at Rowan University?
+   - Can I change my major online or do I need to submit a form in person?
+   - Is there a specific deadline or time period during which I can change my major at Rowan University?
+   - Who should I contact for assistance if I have questions or need help changing my major at Rowan University?
+
+- intent: Withdraw_from_a_course
+  examples: |
+   - What is the process for withdrawing from a course or from Rowan University altogether?
+   - Are there any specific requirements or conditions I need to meet to withdraw from a course or from Rowan University?
+   - Is there a deadline for withdrawing from a course or from Rowan University altogether?
+   - Are there any penalties or consequences for withdrawing from a course or from Rowan University altogether?
+   - Who should I contact for assistance if I am considering withdrawing from a course or from Rowan University altogether?
+
+- intent: Emergency
+  examples: |
+    - What is Rowan University's emergency response plan?
+    - Do we have emergency response plan?
+    - steps of emergency response plan?
+    

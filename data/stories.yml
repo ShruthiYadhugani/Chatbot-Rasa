@@ -1,0 +1,102 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: university
+  - action: utter_university
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: university
+  - action: utter_university
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Fees
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Fees
+  - action: utter_Fees
+
+- story: Registration_for_class
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Registration_for_class
+  - action: utter_Registration_for_class
+
+- story: Registration_Process
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Registration_Process
+  - action: utter_Registration_Process
+
+- story: Banner_Self_Service_for_registration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Banner_Self_Service_for_registration
+  - action: utter_Banner_Self_Service_for_registration
+
+- story: Deadline_for_course_or_class_registration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Deadline_for_course_or_class_registration
+  - action: utter_Deadline_for_course_or_class_registration
+
+- story: Add_or_Drop_a_course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Add_or_Drop_a_course
+  - action: utter_Add_or_Drop_a_course
+
+- story: waitlist_course_registration
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: waitlist_course_registration
+  - action: utter_waitlist_course_registration
+
+- story: Major_change
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Major_change
+  - action: utter_Major_change
+
+- story: Withdraw_from_a_course
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Withdraw_from_a_course
+  - action: utter_Withdraw_from_a_course
+
+- story: Emergency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Emergency
+  - action: utter_Emergency
+
+
